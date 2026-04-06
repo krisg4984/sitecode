@@ -15,7 +15,7 @@ export default function Hero() {
             <img
               className="w-full h-full object-cover grayscale hover:grayscale-0 transition-all duration-700"
               alt="Sophisticated professional headshot of a woman with an architectural backdrop of Dubai, warm sunset lighting and elegant business attire"
-              src="https://drive.google.com/uc?id=1LtkJwLuUk-WaK3OUbV_vnRjGagW5lO_r"
+              src="https://drive.google.com/file/d/1_TDpRc0tUGjKTJHiCZWQ5mxFmRklLrWT/view?usp=sharing"
             />
           </div>
           <div className="flex items-center gap-4 text-primary">
