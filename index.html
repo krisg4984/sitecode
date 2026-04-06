@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kris Eden Gonzales | Portfolio</title>
+    <script id="tailwind-config">
+      tailwind.config = {
+        darkMode: 'class',
+        theme: {
+          extend: {
+            colors: {
+              'surface-tint': '#046d40',
+              'inverse-on-surface': '#f3f0ef',
+              'on-error': '#ffffff',
+              'on-tertiary-fixed-variant': '#5d4201',
+              tertiary: '#5b4100',
+              'outline-variant': '#bec9bf',
+              'secondary-fixed-dim': '#c8c6c5',
+              'surface-variant': '#e5e2e1',
+              'on-primary-fixed': '#002110',
+              primary: '#00502e',
+              'tertiary-container': '#765818',
+              'inverse-surface': '#313030',
+              'on-primary-container': '#91e9b1',
+              'primary-fixed-dim': '#81d9a2',
+              'on-tertiary': '#ffffff',
+              surface: '#fcf9f8',
+              'surface-container-highest': '#e5e2e1',
+              'tertiary-fixed': '#ffdea5',
+              'error-container': '#ffdad6',
+              'surface-container': '#f0edec',
+              'inverse-primary': '#81d9a2',
+              'surface-container-lowest': '#ffffff',
+              'on-primary': '#ffffff',
+              secondary: '#5f5e5e',
+              'surface-container-high': '#ebe7e7',
+              'surface-bright': '#fcf9f8',
+              'on-surface-variant': '#3f4941',
+              'on-secondary': '#ffffff',
+              'on-tertiary-fixed': '#261900',
+              'secondary-container': '#e2dfde',
+              'surface-dim': '#dcd9d9',
+              'on-secondary-fixed-variant': '#474746',
+              'on-secondary-fixed': '#1c1b1b',
+              'tertiary-fixed-dim': '#e9c176',
+              'on-secondary-container': '#636262',
+              'on-primary-fixed-variant': '#00522f',
+              'primary-fixed': '#9df5bd',
+              'primary-container': '#006b3f',
+              outline: '#6f7a71',
+              'surface-container-low': '#f6f3f2',
+              'on-surface': '#1c1b1b',
+              error: '#ba1a1a',
+              'on-background': '#1c1b1b',
+              'on-error-container': '#93000a',
+              background: '#fcf9f8',
+              'on-tertiary-container': '#fad184',
+              'secondary-fixed': '#e5e2e1'
+            },
+            borderRadius: {
+              DEFAULT: '0.125rem',
+              lg: '0.25rem',
+              xl: '0.5rem',
+              full: '0.75rem'
+            },
+            fontFamily: {
+              headline: ['Manrope'],
+              body: ['Newsreader'],
+              label: ['Manrope']
+            }
+          }
+        }
+      };
+    </script>
+    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;700;800&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,700;1,6..72,400&display=swap" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap" rel="stylesheet" />
+  </head>
+  <body class="bg-surface text-on-surface font-body selection:bg-primary-fixed selection:text-on-primary-fixed">
+    <div id="root"></div>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
