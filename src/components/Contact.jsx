@@ -18,7 +18,7 @@ export default function Contact() {
               </div>
               <div>
                 <p className="font-headline font-bold text-xs uppercase tracking-widest text-primary">Inquiries</p>
-                <p className="font-body text-lg">kris.eden@example.com</p>
+                <p className="font-body text-lg">krisedengonzales@yahoo.com</p>
               </div>
             </div>
             <div className="flex items-start gap-6">
